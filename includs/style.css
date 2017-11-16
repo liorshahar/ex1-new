@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header , nav , footer , main , section{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 62px;
+    width: 1280px;
+    background-color: #1B1E27;
+    display: table;
+}
+
+header section{
+    margin-top: 13px;
+}
+   
+
+/*logo css----------------------------------------------------------------*/
+
+
+#logo a{
+    width: 259px;
+    height: 36px;
+    font-size: 28px;
+    background-image: url("../images/Home-icon2.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-left: 62px;
+    display: block;
+}
+
+
+
+.logo1{
+    color: #c0c1c3;
+    font-family: arial;
+    font-weight: lighter;
+    margin-left: 38px;
+    vertical-align: middle;
+}
+.logo2{
+    color: #ffffff;
+    font-family: Lucida Console;
+    font-weight: normal;
+    vertical-align: middle;
+}
+/*end of logo css--------------------------------------------------------------------*/
+
+
+/*nav bar css-------------------------------------------------------------------------*/
+nav{
+    height: 38px;
+    width: 1280px;
+    background-color: #ffffff;   
+}
+
+nav a{
+    color: #8A9199;
+    font-size: 21px;
+    margin-left: 70px;
+    font-family: verdana;
+    line-height: 38px;
+}
+
+nav a:hover{
+    color: #27292B;
+}
+
+/*end nav bar css-------------------------------------------------------------------------*/
+
+
+/*main css--------------------------------------------------------------------------------*/
+main{
+   width: 1280px;
+}
+
+.ineerMainSection{
+    
+    border: 1px solid #DCDCDE;
+    border-bottom: 1px double #DCDCDE;
+    border-radius: 4px;
+    border-bottom-width: 3px;
+    height: 261px;
+    padding: 17px;
+    width: 350px;
+    margin-left: 70px;
+   
+    
+}
+
+
+main h1{
+    color: #8A9199;
+    font-family: verdana;
+    font-weight: lighter;
+    margin:32px 0px 32px 70px;
+}
+
+main .postImg{
+    
+    display: block;
+    margin-bottom: 0px;
+    
+}
+
+main .ineerMainSection > section img{
+    margin:0px 12px 0px 16px;
+    float: left;
+}
+
+main .ineerMainSection >section p:nth-child(2){
+    margin-top: 12px;
+    font-family: verdana;
+    font-size: 14px;
+    color: #585F69;
+}
+
+main .ineerMainSection >section p:nth-child(3){
+    margin-top: 8px;
+    font-family: verdana;
+    font-size: 13px;
+    color: #C1C2C7;
+}
+
+main .secondSection{
+  
+    width: 1135px;
+    border-top: 1px solid #DCDCDE;
+    margin-top: 67px;
+    margin-bottom: 0px;
+    padding-top: 27px;
+    margin-left: 72px;
+    height: 100px;
+}
+
+.secondSection img{
+    float: left;
+    margin-left: 4px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+
+.secondSection p{
+    margin-top: 12px;
+    font-family: arial;
+    font-size: 13px;
+    color: #585F69;
+}
+
+.secondSection p:nth-child(2){
+   color:#C1C2C7;
+}
+
+.programingSection{
+    width: 1280px;
+    background-color: #24272E;
+    height: 288px;
+    color: #72777D;
+    font-family: Georgia;
+    margin: 0px; 
+}
+
+.programingSection p:first-child{
+    color: #FEFEFE;
+    margin-top: 15px;
+    padding: 32px 0px 13px 0px;
+    
+}
+
+.programingSection p{
+    margin: 0px 0px 0px 72px;  
+}
+
+
+/*end of /*main css-----------------------------------------------------------------------*/
+footer{
+    width:1280px;
+    height: 94px;
+}
+
+footer a{
+    color: #393939;
+    font-size: 21px;
+    margin-left: 70px;
+    font-family: verdana;
+    line-height: 38px;
+    display: inline-block;
+}
+footer p{
+    color: #393939;
+    font-size: 21px;
+    margin-left: 70px;
+    font-family: verdana;
+    line-height: 38px;
+    display: inline-block;
+}
+
+/*footer css------------------------------------------------------------------------------*/
